@@ -1,9 +1,9 @@
 <?php
 
-        $username = "btga224";
-        $password = "u0705355";
-        $dbname = "test";
-        $server = "mastelottoplan.backups.uky.edu";//"mysql.cs.uky.edu";
+        $username = "dle232";
+        $password = "u0816536";
+        $dbname = "dle232";
+        $server = "mysql.cs.uky.edu";//"mysql.cs.uky.edu";
         // Connecting to the SQL server at cs.uky.edu.
         $conn = mysqli_connect( $server, $username, $password, $dbname);
         if (!$conn) {
