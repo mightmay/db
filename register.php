@@ -22,31 +22,36 @@
             $pass = $_POST['password'];
             $flag = 1;
             $query1 = "INSERT INTO user (f_name, l_name, street, city, state, email, password, flag) VALUES ('$first', '$last', '$street', '$city', '$state', '$email', '$pass', '$flag')";
-            $data = mysqli_query($conn, $query1) or die(mysqli_error($conn));
+            $data = mysqli_query($conn, $query1) or die("error querying" . mysqli_error($conn));
             if($data)
             {
-                $return_url = "http://cs.uky.edu/~dle232/index2.php";
+               $return_url = "http://cs.uky.edu/~dle232/registersuccess.html";
                 echo 'Your registration is completed. ';
-                header('Location:'.$return_url);
+               header('Location:'.$return_url);
             }
         }
         
         function signup($conn)
         {
             
-            if(!empty($_POST['email'])); // Check to see if the email form is empty
-            {
-                $checkUser = mysqli_query($conn, "SELECT * FROM user WHERE email = '$_POST[email]' AND password = '$_POST[password]'") or die(mysqli_error($conn)); 
-                if(!$row = mysqli_fetch_array($checkUser) or die(mysqli_error($conn)))
-                {
-                    newUser($conn);
-                }
-                else
-                {
-                    echo "Sorry you are already a registered user. ";
-                }
-            }    
-        }
+           	if(!empty($_POST['email'])); // Check to see if the email form is empty
+            	{
+                	$checkUser = mysqli_query($conn, "SELECT * FROM user WHERE email = '$_POST[email]' ") or die(mysqli_error($conn)); 
+            
+ 			if(!$row = mysqli_fetch_array($checkUser) or die(mysqli_error($conn)))
+			{
+				newUser($conn);
+			}
+			mysqli_free_result($checkUser);
+
+    			if($row2 = mysqli_fetch_array($checkUser) or die(mysqli_error($conn)))
+                	{echo"email existed";
+                   // newUser($conn);
+                	}
+           	}    
+           
+	
+	}
         
         if(isset($_POST['submit']))
         {

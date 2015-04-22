@@ -6,12 +6,24 @@ include_once("config.php");
 <html>
     <head>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script type="text/javascript">
+     <link rel="stylesheet" type="text/css" href="index.css">
+<style>
+body {
+    background-color: linen;
+}
+h1 {
+    color: maroon;
+    margin-left: 40px;
+} 
+</style>
+
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript">
 	        var image1 = new Image()
 	        image1.src = "Duck.jpg"
 	
@@ -30,7 +42,7 @@ include_once("config.php");
 	        var image6 = new Image()
 	        image6.src = "NTurtle.jpg"        
     		</script>
-   		  <link href="index.css" rel="stylesheet" type="text/css">
+   	
         <title>Toy and Game Store</title>
     </head>
     <body>
