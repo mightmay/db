@@ -40,7 +40,7 @@ include_once("config.php"); //include config file
                             $home = 'http://cs.uky.edu/~dle232/index.php';
                         }
 
-                        echo '<a class="navbar-brand" href="' . $home . '"> B & B Gaming </a>';
+                        echo '<a class="navbar-brand" href="' . $home . '"> Online Store </a>';
                         ?>
                     </div>
                     <!-- This is the actual dropdown menu, and where each item links.-->

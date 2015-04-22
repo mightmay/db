@@ -31,7 +31,7 @@ include_once("config.php");
                         $home = 'http://cs.uky.edu/~dle232/manager.php';
 
 
-                        echo '<a class="navbar-brand" href="' . $home . '"> B & B Gaming </a>';
+                        echo '<a class="navbar-brand" href="' . $home . '"> Online Store </a>';
                         ?>
                     </div>
                     <!-- This is the actual dropdown menu, and where each item links.-->

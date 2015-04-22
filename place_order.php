@@ -34,7 +34,7 @@
                             $home = 'http://cs.uky.edu/~dle232/index.php';
                         }
 
-                        echo '<a class="navbar-brand" href="' . $home . '"> B & B Gaming </a>';
+                        echo '<a class="navbar-brand" href="' . $home . '"> Online Store </a>';
                         ?>
                     </div>
                     <!-- This is the actual dropdown menu, and where each item links.-->
@@ -137,7 +137,7 @@
 			  <br><br>
 			  
 	      	<a href="http://cs.uky.edu/~dle232/index2.php"><button class="home-btn">Home page</button></a>
-	      	<a href="http://cs.uky.edu/~dle232/cart.php"><button class="shop-btn">Continue shopping</button></a>
+	      	<a href="http://cs.uky.edu/~dle232/browseitem.php"><button class="shop-btn">Continue shopping</button></a>
 	    	
 			</div>
     </div>

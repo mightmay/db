@@ -58,7 +58,7 @@ h1 {
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="http://cs.uky.edu/~dle232/index.php">B & B Gaming </a>
+                        <a class="navbar-brand" href="http://cs.uky.edu/~dle232/index.php">Online Store </a>
                     </div>
                     <!-- This is the actual dropdown menu, and where each item links.-->
                     <div class="collapse navbar-collapse" id="home-navbar-collapse-1">
@@ -96,7 +96,7 @@ h1 {
         </div>
         <div class="container main-div" style="width: 30%;">
 		    	<div id="browse-div">
-		  	  	<a href="http://cs.uky.edu/~dle232/cart.php">Browse Items
+		  	  	<a href="http://cs.uky.edu/~dle232/browseitem.php">Browse Items
 			  	  	<img src="fun.jpg" name="slide" >
 					    <script type="text/javascript">
 					        var step = 1

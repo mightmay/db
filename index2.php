@@ -48,7 +48,7 @@ include_once("config.php");
                         $home = 'http://cs.uky.edu/~dle232/index2.php';
 
 
-                        echo '<a class="navbar-brand" href="' . $home . '"> B & B Gaming </a>';
+                        echo '<a class="navbar-brand" href="' . $home . '"> Online Store </a>';
                         ?>
                     </div>
                     <!-- This is the actual dropdown menu, and where each item links.-->
@@ -72,7 +72,7 @@ include_once("config.php");
 
         <div class="container main-div" style="width: 30%;">
 		    	<span id="browse-div">
-		  	  	<a href="http://cs.uky.edu/~dle232/cart.php">Browse Items
+		  	  	<a href="http://cs.uky.edu/~dle232/browseitem.php">Browse Items
 			  	  	<img src="fun.jpg" name="slide" >
 					    <script type="text/javascript">
 					        var step = 1

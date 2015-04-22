@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
     $price = $_POST["price"];
     $desc =  $_POST["description"];
     $qty = $_POST["qty"]; 
-    $rate = 100.00;
+    $rate = 0.00;
     
     $sql = "INSERT INTO products(product_code, product_name, product_desc, price, quantity, rate) VALUES('$code', '$name', '$desc', $price, $qty, $rate)";
     if($mysqli->query($sql)){
